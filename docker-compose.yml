@@ -11,7 +11,7 @@ web:
     MYSQL_PASSWORD: mysecurepass
     MYSQL_HOST: db
 db:
-  image: orchardup/mysql
+  image: erdarshandoshi/firstrepo
   ports:
     - "3306:3306"
   environment:
